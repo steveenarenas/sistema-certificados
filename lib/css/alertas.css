@@ -1,0 +1,14 @@
+.activo {
+    background-color: green;
+    color: white;
+}
+
+.retirado {
+    background-color: red;
+    color: white;
+}
+
+
+.fila-retirada {
+    background-color: #ff0000; /* Puedes ajustar el color según lo necesites */
+}

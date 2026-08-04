@@ -1,0 +1,162 @@
+.row-center {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn-iniciar {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, color 0.3s ease;
+    color: #fff; /* Color del texto por defecto */
+    width: 45px; 
+    height: 45px;
+    border-radius: 25px;
+  }
+
+  .btn-iniciar:hover {
+    color: #00FFDC; /* Color del texto al pasar el mouse */
+  }
+
+
+    #NIT {
+    width: 300px;
+  }
+
+    #NIT span,
+    .ano span,
+    .periodo span,
+    .tipoc span {
+        color: red;        
+    }
+
+
+
+    .navbar-nav .dropdown-item .btn {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        text-align: left;
+    }
+
+    .navbar-nav .dropdown-item img {
+        margin-right: 8px;
+    }
+
+    /* Ocultar el botón de hamburguesa en pantallas grandes */
+    .navbar-toggler {
+        display: none;
+    }
+
+    /* Mostrar los elementos del menú en pantallas grandes */
+    .navbar-nav .nav-item {
+        display: flex;
+    }
+
+    #hamburguesa {
+        display: none;
+    }
+  
+
+
+/* Aquí puedes añadir tus estilos personalizados */
+@media (max-width: 767px) {
+
+    #userlog {
+        width: 50px !important;
+        height: 50px !important;
+        margin-right: 10px;
+       
+    }
+
+    #userlog2 {
+        width: 50px !important;
+        height: 50px !important;
+        margin-top: 10px;
+        display: block;
+       
+    }
+    
+    .navbar-toggler {
+        display: block;
+    }
+
+    .navbar-nav .nav-item {
+        display: none;
+    }
+
+    #hamburguesa {
+        display: block;
+    }
+
+    
+    #NIT {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #tipoc {
+        width: 100%;
+        margin-bottom: 10px;
+        
+    }
+
+    #ano {
+        width: 100%;
+        margin-bottom: 10px;
+        
+    }
+    
+    
+    #periodo {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+
+    
+    .ano span,
+    .periodo span,
+    .tipoc span {
+        color: red;        
+    }
+
+    .ano,
+    .periodo,
+    .tipoc {
+        font-size: 15px;
+        text-wrap: nowrap;
+    }
+
+    .titulo {
+        font-size: 20px;
+        text-wrap: nowrap;
+    }
+
+    .logoapps {
+        width: 40px !important;
+        height: 40px !important;
+        
+    }
+
+   
+
+    .btn-iniciar {
+        width: 40px !important;
+        height: 40px !important;
+      }
+  
+
+    .navbar-nav.botones-nav {
+        display: none; /* Ocultar la barra de navegación en pantallas pequeñas */
+    }
+    .navbar-collapse.show .navbar-nav.botones-nav {
+        display: block; /* Mostrar la barra de navegación cuando el menú está desplegado */
+    }
+
+
+    #bienvenido {
+        display: none;
+    }
+
+    
+}
+
+

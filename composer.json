@@ -1,0 +1,22 @@
+{
+    "name": "luna.cabrera/certificados",
+    "description": "proyecto acerca de certificados",
+    "type": "project",
+    "require": {
+        "smalot/pdfparser": "^2.10",
+        "setasign/fpdi": "^2.6",
+        "setasign/fpdf": "^1.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "LunaCabrera\\Certificados\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "stevengers",
+            "email": "aprendiz.gi@gers.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}

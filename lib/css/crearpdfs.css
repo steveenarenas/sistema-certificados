@@ -1,0 +1,78 @@
+.barra {
+    background-color: #333;
+    color:#f8f9fa;
+    height: 50px;
+    text-align: center;
+    justify-content: center; 
+}
+
+/* Estilo para el input de archivo */
+input[type="file"] {
+    display: block;
+    display: inline-block;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #f8f9fa; /* Color de fondo */
+    color: #333; /* Color del texto */
+    font-size: 16px;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+
+/* Estilo para el botón */
+button {
+    padding: 10px 20px;
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; /* Color de fondo del botón al pasar el mouse */
+}
+
+
+.cargarpdf {
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+             /* Ocupar toda la altura de la ventana */
+   
+}
+
+.subirpdf {
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 120px;
+          /* Ocupar toda la altura de la ventana */
+    
+}
+
+
+.texto-cargar {
+    text-align: left; /* Alineación del texto */
+    margin-right: 30px;
+}
+
+
+.texto-subir { 
+    text-align: left; /* Alineación del texto */
+}
+
+.container-pdf {
+    padding: 40px 40px;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 120px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    border: 2px dashed #bdbdbd; /* Borde de 2px, punteado, color negro */
+}
+

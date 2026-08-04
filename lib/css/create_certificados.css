@@ -1,0 +1,92 @@
+/* Aquí puedes añadir tus estilos personalizados */
+@media (max-width: 767px) {
+
+    #nit_cc {
+        width: 130px;
+        
+    }
+
+    #nit_cc::placeholder {
+        font-size: 12px; /* Tamaño del texto del placeholder */
+        color: #999; /* Color del texto del placeholder */
+        font-style: italic; /* Estilo del texto del placeholder */
+    }
+
+    #nombre {
+        width: 120px;
+        margin-left: 70px;
+        
+    }
+
+    #nombre::placeholder {
+        font-size: 12px; /* Tamaño del texto del placeholder */
+        color: #999; /* Color del texto del placeholder */
+        font-style: italic; /* Estilo del texto del placeholder */
+    }
+    
+
+    #certificado {
+        width: 120px;
+        margin-left: -180px;
+    }
+
+    #ano {
+        width: 100px;
+        margin-left: 5px;
+        
+       
+        
+       
+    }
+
+    #periodo {
+        width: 100px;
+        margin-left: 120px;
+        
+       
+    }
+
+    #pdf {
+        width: 200px;
+        margin-left: -90px;
+       
+       
+        
+       
+    }
+
+
+    .nit_cc,
+    .nombre,
+    .certificado,
+    .ano,
+    .periodo,
+    .pdf {
+        font-size: 10px;
+        text-wrap: nowrap;
+    }
+
+    .nombre {
+        margin-left: 70px;
+    }
+
+    .certificado {
+        margin-top: 100px;
+        margin-left: -180px;
+    }
+
+    .ano {
+        margin-left: 5px;
+    }
+
+    .periodo {
+        margin-left: 120px;
+    }
+
+    .pdf {
+        margin-left: -90px;
+        margin-top: 100px;
+    }
+
+    
+}

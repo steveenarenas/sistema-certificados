@@ -1,0 +1,5 @@
+Options All -Indexes
+
+RewriteEngine On
+ErrorDocument 404 https://apps.gers.com/certificados/error404.php
+ErrorDocument 403 https://apps.gers.com/certificados/error404.php

@@ -1,0 +1,53 @@
+.botonnav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.botonnav:hover {
+  background-color: #d3e8ff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+.botonnav i {
+  margin-right: 10px;
+}
+
+
+
+
+  #buscarInput {
+    border: 1px solid #0080ff; /* Borde del campo de entrada */
+    border-radius: 100px !important; /* Bordes redondeados */
+    padding: 8px 12px; /* Espacio interno */
+    font-size: 16px; /* Tamaño del texto */
+    width: 100%; /* Ancho del campo de entrada */
+  }
+
+  #buscarButton {
+    border: 1px solid #1f3b57; /* Borde del campo de entrada */
+    border-radius: 100px !important; /* Bordes redondeados */
+    padding: 8px 12px; /* Espacio interno */
+    font-size: 16px; /* Tamaño del texto */
+    width: 300px; /* Ancho del campo de entrada */
+  }
+
+  #limpiarButton {
+    border: 1px solid #1f3b57; /* Borde del campo de entrada */
+    border-radius: 100px !important; /* Bordes redondeados */
+    padding: 8px 12px; /* Espacio interno */
+    font-size: 16px; /* Tamaño del texto */
+    width: 300px; /* Ancho del campo de entrada */
+  }
+
+
+  
