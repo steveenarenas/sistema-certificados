@@ -29,15 +29,15 @@ Sistema web desarrollado en **PHP, JavaScript y MySQL** para la gestión y gener
 
 ## 📸 Capturas del sistema
 
-### Inicio de sesión
+### Inicio
 
 ![Index](screenshots/index.png)
 
-### Panel principal
+### Filtro
 
 ![Filter](screenshots/filter.png)
 
-### Generación de certificados
+### Pie de Pagina
 
 ![Footer](screenshots/footer.png)
 
